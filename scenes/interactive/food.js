@@ -79,7 +79,7 @@ export class Food extends Phaser.GameObjects.Zone
 			this.scene.scoreText.setText(`Score: ${this.scene.foodScore}`);
 		}
 		if (this.text == 'ring') {
-			this.scene.scoreText.setText(`You win!! Are you ready to go to level 2 with me?`);
+			this.scene.scoreText.setText(`You win!! Are you ready to go to the next level with me?`);
 		}
 		this.activated = true;
 		this.pointsCollected = true;

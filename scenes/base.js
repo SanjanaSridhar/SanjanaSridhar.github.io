@@ -62,6 +62,7 @@ export class BaseScene extends Phaser.Scene {
       fontFamily: '"Lucida Console", Courier, monospace',
       fontSize: '32px',
       fill: '#000',
+      backgroundColor: '#93c47d'
     });
     this.scoreText.setScrollFactor(0);
 
