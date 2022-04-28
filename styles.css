@@ -1,0 +1,217 @@
+/* ---------------- GLOBAL CONFIG ------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Inconsolata&display=swap');
+
+/* Color schemes (for light and dark mode) */
+html, html[data-theme="light"] {
+	--color-background: #A9A9A9;
+    --color-toolbars: #878787;
+    --color-text: #000;
+	--color-emphasis: #861388;
+}
+html[data-theme="dark"] {
+    --color-background: #21262d;
+    --color-toolbars: #484f58;
+	--color-text: #c9d1d9;
+    --color-emphasis: #ccffff
+}
+
+
+html,
+body,
+#game-container {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    /* margin: auto; */
+    position: relative;
+    font-family: 'Avenir', sans-serif; 
+    color: #33475b; 
+    /* font-size: 1.7rem;
+    line-height: 1.5;
+	background-color: var(--color-background); */
+}
+/* 
+body {
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'Avenir', sans-serif; 
+    color: #33475b;    
+  } */
+
+a {
+    color: var(--color-emphasis);
+    text-decoration: none;
+}
+p {
+    color: var(--color-text);
+    text-align: justify;
+	padding-bottom: 10px;
+}
+h3, h4, li {
+    color: var(--color-text);
+}
+
+*::selection {
+    background: var(--color-toolbars);
+    color: var(--color-emphasis);
+    text-shadow: none;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------------------- */
+/* ---------------- GAME ------------------- */
+/* ----------------------------------------- */
+
+/*LOADING OVERLAY*/
+#loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 101;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading-wrapper {
+    position: relative;
+    top: -10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loading-wrapper img {
+    height: 82px;
+    margin-bottom: 27px;
+	background-color: gray;
+	padding: 10px;
+}
+
+/* ----------GAME MENU---------- */
+#game-menu-container {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#game-menu-container #pic-circ {
+    border-radius: 50%;
+    border: 1px solid #666;
+    object-fit: cover;
+    width: 58px;
+    transition: all .2s ease-in-out;
+}
+
+#game-menu-container #pic-circ:hover {
+    transform: scale(1.1);
+    transform-origin: center center;
+    cursor: pointer;
+}
+
+#game-menu {
+    /*display: none;*/
+    padding: 10px;
+    margin-top: 3px;
+    transform: translateX(3px);
+    background-color: var(--color-toolbars);
+    list-style-type: none;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+
+#game-menu li {
+    border-radius: 4px;
+    transition: background-color 0.2s ease-out;
+}
+
+#game-menu li.active-link {
+    background-color: lightgray;
+}
+
+#game-menu li.active-link a {
+    cursor: default;
+    color: var(--color-emphasis);
+}
+
+#game-menu li:not(:first-child) {
+    margin-top: 3px;
+}
+
+#game-menu a {
+    text-decoration: none;
+    color: white;
+    line-height: 1.5;
+    font-family: monospace;
+    font-size: 1.5rem;
+    display: block;
+    padding: 3px 7px;
+}
+
+#game-menu li:not(.active-link):hover {
+    background-color: var(--color-background);
+}
+
+#game-container {
+    z-index: 1;
+}
+
+
+/* -----------------------------------------
+/* ---------------- SITE ------------------- */
+/* ----------------------------------------- */
+
+/* div {
+    display: flex;
+    justify-content: center;
+} */
+
+
+/* ---------SECTIONS--------- */
+/* section, div#download-cv-sect {
+	position: relative;
+    width: 90%;
+	max-width: 1380px;
+	padding: 35px;
+	margin: 30px auto 60px;
+	border: 2px dashed var(--color-emphasis);
+	border-radius: 20px;
+} */
+
+/* section h2 {
+    position: absolute;
+    top: 0;
+    left: -25px;
+    font-family: 'Dosis', monospace;
+    font-size: 3rem;
+    color: var(--color-emphasis);
+    text-transform: uppercase;
+    transform: rotate(270deg) translateX(-100%);
+    transform-origin: left;
+} */
+
+
