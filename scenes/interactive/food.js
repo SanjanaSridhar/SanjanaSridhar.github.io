@@ -74,7 +74,7 @@ export class Food extends Phaser.GameObjects.Zone
 		this.foodRect.setVisible(true);
 		this.foodText.setVisible(true);
 		this.scene.showingFood = true;  // A property of the scene, see BaseScene's update
-		if (this.text == '!!!!' && Number(sessionStorage.score == 120)) {
+		if (this.text == '!!!!' && Number(sessionStorage.score == 140)) {
 			this.scene.scoreText.setText(`You win!! Ready to go to the next level with me?`);
 		}
 		else if (!this.pointsCollected) {
