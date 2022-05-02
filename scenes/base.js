@@ -56,9 +56,9 @@ export class BaseScene extends Phaser.Scene {
     this.showingFood = false;
     // ----------------
     // Score
-    this.foodScore = 0;
+
     this.scoreText;
-    this.scoreText = this.add.text(210, 25, `Score: ${this.foodScore}`,{ 
+    this.scoreText = this.add.text(210, 25, `Score: ${sessionStorage.score}`,{
       fontFamily: '"Lucida Console", Courier, monospace',
       fontSize: '32px',
       fill: '#000',

@@ -20,13 +20,19 @@ export class OverworldScene extends BaseScene {
 
   create() {
     super.create("OverworldMap");
-
+    if (!sessionStorage.score) {
+			sessionStorage.score = 0;
+    }
+    this.scoreText.setText(`Score: ${sessionStorage.score}`);
     // Resize the world and camera bounds
     this.physics.world.setBounds(0, 0, 1920, 1088);
     this.cameras.main.setBounds(0, 0, 1920, 1088);
 
     // On scene switch (after entering a door) display the walking DOWN animation
-    this.events.on('wake', () => {this.player.setTexture("atlas", "ariel-front")}, this);
+    this.events.on('wake', () => {
+      this.player.setTexture("atlas", "ariel-front")
+      this.scoreText.setText(`Score: ${sessionStorage.score}`);
+    }, this);
 
     this.collide_with_world();  // Has to be called after the rest of the colliders are defined
 

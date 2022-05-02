@@ -388,7 +388,7 @@
                         {
                          "name":"text",
                          "type":"string",
-                         "value":"ring"
+                         "value":"!!!!"
                         }],
                  "rotation":0,
                  "type":"food",
@@ -398,7 +398,7 @@
                  "y":647.414
                 }, 
                 {
-                 "height":11.2832856927937,
+                 "height":11.2833,
                  "id":29,
                  "name":"food",
                  "properties":[
@@ -415,9 +415,9 @@
                  "rotation":0,
                  "type":"food",
                  "visible":true,
-                 "width":12.03550473898,
-                 "x":767.838028584324,
-                 "y":948.509523845344
+                 "width":12.0355,
+                 "x":767.838,
+                 "y":948.51
                 }, 
                 {
                  "height":0,

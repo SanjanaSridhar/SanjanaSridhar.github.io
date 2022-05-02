@@ -318,7 +318,7 @@ Love you forever, Sanjana.</property>
   <object id="27" name="food" type="food" x="1886.1" y="647.414">
    <properties>
     <property name="direction" value="center"/>
-    <property name="text" value="ring"/>
+    <property name="text" value="!!!!"/>
    </properties>
   </object>
   <object id="29" name="food" type="food" x="767.838" y="948.51" width="12.0355" height="11.2833">

@@ -363,7 +363,7 @@
   <object id="30" x="59.2974" y="867.224"/>
   <object id="39" name="food" type="food" x="750.361" y="670.514" width="18.9444" height="19.9458">
    <properties>
-    <property name="direction" value="up"/>
+    <property name="direction" value="center"/>
     <property name="text" value="coffee"/>
    </properties>
   </object>
@@ -375,7 +375,7 @@
   </object>
   <object id="43" name="food" type="food" x="1125.81" y="391.195">
    <properties>
-    <property name="direction" value="up"/>
+    <property name="direction" value="center"/>
     <property name="text" value="grapes"/>
    </properties>
   </object>
@@ -388,7 +388,9 @@
   <object id="45" name="sign" type="sign" x="848.441" y="306.019">
    <properties>
     <property name="direction" value="center"/>
-    <property name="text" value="Baana"/>
+    <property name="text">A FANTASTIC host, the BEST dog sitter,
+ a HELPFUL handy man and a WONDERFUL partner for sanju
+. All in all A+ hooman &lt;3</property>
    </properties>
   </object>
  </objectgroup>

@@ -319,7 +319,7 @@
                         {
                          "name":"direction",
                          "type":"string",
-                         "value":"up"
+                         "value":"center"
                         }, 
                         {
                          "name":"text",

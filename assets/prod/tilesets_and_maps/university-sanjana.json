@@ -539,7 +539,7 @@
                         {
                          "name":"direction",
                          "type":"string",
-                         "value":"up"
+                         "value":"center"
                         }, 
                         {
                          "name":"text",
@@ -583,7 +583,7 @@
                         {
                          "name":"direction",
                          "type":"string",
-                         "value":"up"
+                         "value":"center"
                         }, 
                         {
                          "name":"text",
@@ -632,14 +632,14 @@
                         {
                          "name":"text",
                          "type":"string",
-                         "value":"Baana"
+                         "value":"A FANTASTIC host, the BEST dog sitter,\n a HELPFUL handy man and a WONDERFUL partner for sanju\n. All in all A+ hooman <3"
                         }],
                  "rotation":0,
                  "type":"sign",
                  "visible":true,
                  "width":0,
-                 "x":848.440899202321,
-                 "y":306.018854242204
+                 "x":848.441,
+                 "y":306.019
                 }],
          "opacity":1,
          "type":"objectgroup",

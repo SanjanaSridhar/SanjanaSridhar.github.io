@@ -244,7 +244,7 @@
   </object>
   <object id="12" name="food" type="food" x="906.894" y="553.93">
    <properties>
-    <property name="direction" value="up"/>
+    <property name="direction" value="center"/>
     <property name="text" value="cherries"/>
    </properties>
   </object>
