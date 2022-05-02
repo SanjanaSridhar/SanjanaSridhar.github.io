@@ -190,7 +190,7 @@
     <property name="signY" type="int" value="512"/>
     <property name="sm_signX" type="int" value="356"/>
     <property name="sm_signY" type="int" value="316"/>
-    <property name="text" value="Thank you Flipp for bringing us together!"/>
+    <property name="text" value="Thank you to Flipp for bringing us together!"/>
    </properties>
   </object>
   <object id="4" name="door" type="door" gid="1" x="0" y="445" width="12" height="62">
